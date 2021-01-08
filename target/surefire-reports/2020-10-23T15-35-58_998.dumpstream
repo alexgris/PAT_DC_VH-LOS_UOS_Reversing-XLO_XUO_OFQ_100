@@ -1,0 +1,15 @@
+# Created on 2020-10-23T15:35:59.004
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2020-10-23T15:35:59.007
+WARNING: Illegal reflective access by org.openqa.selenium.os.ProcessUtils (file:/C:/Users/C5282596/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.4.0/selenium-remote-driver-3.4.0.jar) to field java.lang.ProcessImpl.handle
+
+# Created on 2020-10-23T15:35:59.009
+WARNING: Please consider reporting this to the maintainers of org.openqa.selenium.os.ProcessUtils
+
+# Created on 2020-10-23T15:35:59.011
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2020-10-23T15:35:59.015
+WARNING: All illegal access operations will be denied in a future release
+

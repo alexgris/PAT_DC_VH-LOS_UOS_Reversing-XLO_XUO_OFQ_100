@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PAT_DC_STD-Reversing-XCLP" />
+        <module name="PAT_DC_VH-Load_Unload-LOS_UOS_OGQ_100" />
+        <module name="PAT_DC_VH-Load_Unload-LOS_UOS_OFQ_100" />
+        <module name="PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OGQ_100" />
+        <module name="PAT_DC_STD-Booking-STU_OGQ_100" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

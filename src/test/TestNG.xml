@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG_Suite1" verbose="1" thread-count="1" parallel="none">
+
+    <!-- TARGET SYSTEM/CLIENT PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="target_System_Client" value="OFQ_100"/> <!-- Allowed values: "OGQ_100", "OFQ_100" -->
+
+
+    <!-- EDITABLE ENTRY PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="browser" value="chrome" /> <!-- Allowed values: "firefox", "ie", "chrome" -->
+    <parameter name="input_VehicleNumber" value="OGSD_G10" />
+    <parameter name="item_Type_1" value="LOS"/>
+    <parameter name="item_Type_2" value="UOS"/>
+    <parameter name="item_Type_3" value="XLO-XUO"/>
+    <parameter name="cell_Material_1" value="OGSD_100"/>
+    <parameter name="cell_Qty_1" value="100,000"/>
+    <parameter name="cell_Plant_1" value="GP01"/>
+    <parameter name="cell_StorgLocatn_1" value="G1L1"/>
+    <parameter name="cell_ValtnType_1" value="TAX"/>
+    <parameter name="cell_HandlingType_1" value="01"/>
+
+    <parameter name="cell_Material_2" value="OGSD_100"/>
+    <parameter name="cell_Qty_2" value="100,000"/>
+    <parameter name="cell_Plant_2" value="GP01"/>
+    <parameter name="cell_StorgLocatn_2" value="G1L1"/>
+    <parameter name="cell_ValtnType_2" value="TAX"/>
+    <parameter name="cell_HandlingType_2" value="01"/>
+
+
+    <parameter name="input_SupplyPlant" value="GP02" />
+    <parameter name="input_PurchasingGroup" value="GPU" />
+    <parameter name="input_PurchasingOrganization" value="GPUR" />
+    <parameter name="input_SlockOfStockTransfer" value="G2L1" />
+
+
+
+
+    <!-- AUTOCOMPLETE PARAMETERS - Please, enter expected parameteres here  -->
+    <parameter name="auto_cell_MaterialDescription_1" value="Gasoil"/>
+    <parameter name="auto_cell_BaseUnitOfMeasure_1" value="L15"/>
+
+    <parameter name="auto_cell_MaterialDescription_2" value="Gasoil"/>
+    <parameter name="auto_cell_BaseUnitOfMeasure_2" value="L15"/>
+
+    <!-- FIREFOX PROFILE - Please, create a separate firefox profile, import SAP certificate into it and use the profile's name as a value - FYI: https://www.wikihow.com/Create-a-Firefox-Profile -->
+    <parameter name="FireFoxProfileName" value="DC_CSN_Profile"/>
+
+
+
+
+
+    <!-- TEST #1 -->
+       <test name="Item Category - XLO_XUO" group-by-instances="true" preserve-order="true">
+
+        <classes>
+            <class name="org.project.Test_Cases">
+
+                <methods>
+                    <!--<exclude name="brokenTests"  /> -->
+                    <include name="openDataCollationPage_Testing"/>
+                    <include name="add_NewItemRow_Testing"/>
+                    <include name="fill_in_NewItemFields_Testing"/>
+                    <include name="fill_in_ItemCategory_Testing"/>
+                    <include name="fill_in_RightPartOfTable_Testing"/>
+                    <include name="filling_SecondRowforAddItemTable_Testing"/>
+                    <include name="finalize_ProcessingOfVehicleRelatedDocument_Testing"/>
+                    <include name="postprocessing_SearchPostedVehicleRelatedDoc_Testing"/>
+                    <include name="postprocessing_ReverseOrder_Testing"/>
+                    <include name="postprocessing_SearchingCancelledOrder_Testing"/>
+                    <include name="postprocessing_ProcessReversedOrder_Testing"/>
+                    <include name="postprocessing_Read_StockTransportOrderNumber_Testing"/>
+                    <include name="displayFirstMaterialDocumentPage_Testing"/>
+                    <include name="retrieve_AddItemDataForMaterialDocument1_Testing"/>
+                    <include name="close_currentAddItemDataForMaterialDocumentTab_Testing"/>
+                    <include name="displaySecondMaterialDocumentPage_Testing"/>
+                    <include name="retrieve_AddItemDataForMaterialDocument2_Testing"/>
+                    <include name="comparing_AddItemDetails_Testing"/>
+
+                   <!-- <include name="postprocessing_ComparePostedAndCancelledSalesOrder_Testing"/>
+                    <include name="postprocessing_Read_StockTransportOrderNumber_Testing"/>
+                    <include name="add_NewItemRowForNewDocument_Testing"/>
+                    <include name="fill_in_NewItemFieldsForNewDocument_Testing"/>
+                    <include name="fill_in_ItemCategoryForNewDocument_Testing"/>
+                    <include name="fill_in_RightPartOfTableForOtherDocument_Testing"/>
+                    <include name="finalize_ProcessingOfSalesOrderForOtherDocument_Testing"/>
+                    <include name="postprocessing_ComparePostedAndCancelledSalesOrderForOtherDocument_Testing"/>-->
+                </methods>
+
+            </class>
+        </classes>
+
+    </test>
+
+
+</suite>
