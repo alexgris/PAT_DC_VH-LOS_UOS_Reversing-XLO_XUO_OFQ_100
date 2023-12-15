@@ -1,0 +1,50 @@
+Copyright © author
+Link: https://implico-group.gitlab.io/documentation/internal-documentation/nav.00.guidelines/git.html
+
+# Editors (mandatory - always add this part)
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.iml
+*.class
+.project
+.settings
+
+# OS generated files (mandatory - always add this part)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# List of common ignore categories - depends on environment:
+
+# Package directories (e.g., node_modules, jspm_packages, ...)
+
+# Serverless directories (e.g., .serverless)
+
+# Webpack directories e.g. .webpack
+
+# Logs (e.g., logs, *.log, npm-debug.log*, lock.json)
+
+# Coverage directory (e.g., coverage/)
+
+# Reports dicrectory (e.g., reports/)
+
+# Compiled binary addons (e.g., build/)
+
+# Dependency directories (e.g., node_modules/ )
+
+# Optional npm cache directory (e.g., .npm)
+
+# Optional eslint cache (e.g., .eslintcache)
+
+# Output of 'npm pack' (e.g., *.tgz)
+
+# dotenv environment variables file (e.g., .env)

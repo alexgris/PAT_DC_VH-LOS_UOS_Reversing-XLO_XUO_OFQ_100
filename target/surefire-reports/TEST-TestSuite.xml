@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="224.301" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="242.528" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="12"/>
+    <property name="webdriver.chrome.driver" value="C:\SeleniumWebDrivers\Chrome\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\Temp\PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100\target\test-classes;C:\Temp\PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100\target\classes;C:\Users\c5282596\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\c5282596\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\c5282596\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\c5282596\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\c5282596\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\c5282596\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\c5282596\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\c5282596\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\c5282596\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\c5282596\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\c5282596\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\c5282596\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\c5282596\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\c5282596\.m2\repository\org\jetbrains\annotations-java5\16.0.2\annotations-java5-16.0.2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.6.1\maven-compiler-plugin-3.6.1.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\c5282596\.m2\repository\org\ow2\asm\asm\6.0_ALPHA\asm-6.0_ALPHA.jar;C:\Users\c5282596\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M5\qdox-2.0-M5.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.1\plexus-compiler-api-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.1\plexus-compiler-manager-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.1\plexus-compiler-javac-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\c5282596\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\c5282596\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\c5282596\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\c5282596\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.2\jackson-core-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.2\jackson-databind-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.2\jackson-annotations-2.2.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\dom\2.3.0-jaxb-1.0.6\dom-2.3.0-jaxb-1.0.6.jar;C:\Users\c5282596\.m2\repository\sax\sax\2.0.1\sax-2.0.1.jar;C:\Users\c5282596\.m2\repository\org\json\json\20171018\json-20171018.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.52.0\selenium-htmlunit-driver-2.52.0.jar;C:\Users\c5282596\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\c5282596\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\c5282596\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\c5282596\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings\3.6.2\maven-settings-3.6.2.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Temp\External_XPathes_DC_OFQ_100\out\artifacts\External_XPathes_DC_OFQ_100_jar\External_XPathes_DC_OFQ_100.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Europe/Berlin"/>
-    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\plugins\maven\lib\maven3/conf"/>
-    <property name="java.vm.specification.version" value="12"/>
     <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.2 clean test"/>
+    <property name="sun.java.command" value="C:\Users\c5282596\AppData\Local\Temp\surefire8244189772328709502\surefirebooter11637387152882162164.jar C:\Users\c5282596\AppData\Local\Temp\surefire8244189772328709502 2023-01-31T16-38-28_604-jvmRun1 surefire11647483155818650099tmp surefire_07575558062013763576tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\plugins\maven\lib\maven3"/>
+    <property name="surefire.test.class.path" value="C:\Temp\PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100\target\test-classes;C:\Temp\PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100\target\classes;C:\Users\c5282596\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\c5282596\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\c5282596\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\c5282596\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\c5282596\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\c5282596\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\c5282596\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\c5282596\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\c5282596\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\c5282596\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\c5282596\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\c5282596\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\c5282596\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\c5282596\.m2\repository\javax\servlet\javax.servlet-api\3.0.1\javax.servlet-api-3.0.1.jar;C:\Users\c5282596\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\c5282596\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\c5282596\.m2\repository\org\jetbrains\annotations-java5\16.0.2\annotations-java5-16.0.2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.6.1\maven-compiler-plugin-3.6.1.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\c5282596\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\c5282596\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\c5282596\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\c5282596\.m2\repository\org\ow2\asm\asm\6.0_ALPHA\asm-6.0_ALPHA.jar;C:\Users\c5282596\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M5\qdox-2.0-M5.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.1\plexus-compiler-api-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.1\plexus-compiler-manager-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.1\plexus-compiler-javac-2.8.1.jar;C:\Users\c5282596\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\c5282596\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\c5282596\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\c5282596\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\c5282596\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\Users\c5282596\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\c5282596\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.2\jackson-core-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.2\jackson-databind-2.2.2.jar;C:\Users\c5282596\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.2\jackson-annotations-2.2.2.jar;C:\Users\c5282596\.m2\repository\org\w3c\dom\2.3.0-jaxb-1.0.6\dom-2.3.0-jaxb-1.0.6.jar;C:\Users\c5282596\.m2\repository\sax\sax\2.0.1\sax-2.0.1.jar;C:\Users\c5282596\.m2\repository\org\json\json\20171018\json-20171018.jar;C:\Users\c5282596\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.52.0\selenium-htmlunit-driver-2.52.0.jar;C:\Users\c5282596\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\c5282596\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\c5282596\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\c5282596\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\c5282596\.m2\repository\org\apache\maven\maven-settings\3.6.2\maven-settings-3.6.2.jar;C:\Users\c5282596\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Temp\External_XPathes_DC_OFQ_100\out\artifacts\External_XPathes_DC_OFQ_100_jar\External_XPathes_DC_OFQ_100.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\C5282596"/>
+    <property name="user.home" value="C:\Users\c5282596"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2019-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="C:\Temp\PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\c5282596\AppData\Local\Temp\surefire8244189772328709502\surefirebooter11637387152882162164.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -40,40 +42,1518 @@
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\c5282596\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\C5282596\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\c5282596\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.1"/>
     <property name="java.version" value="12.0.2"/>
-    <property name="user.dir" value="C:\Temp\PAT_DC_VH-Load_Unload-LOS_UOS_OFQ_100"/>
+    <property name="user.dir" value="C:\Temp\PAT_DC_VH-LOS_UOS_Reversing-XLO_XUO_OFQ_100"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Temp\PAT_DC_VH-Load_Unload-LOS_UOS_OFQ_100"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="idea.version2019.2" value="true"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr\\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\jbr\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Program Files\apache-maven-3.6.0\bin\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\opscode\chef\bin;C:\opscode\chef\;C:\ProgramData\chocolatey\bin;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PowerShell\6\;C:\Users\C5282596\AppData\Local\Microsoft\WindowsApps;C:\Users\C5282596\AppData\Roaming\npm;C:\Program Files\Java\jdk-12.0.2\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\opscode\chef\bin\;C:\Program Files (x86)\Citrix\HDX\bin\;C:\Program Files\Citrix\HDX\bin\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\apache-maven-3.6.0\bin;C:\Users\c5282596\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;C:\Users\c5282596\AppData\Local\Programs\Fiddler;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="12.0.2+10"/>
-    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="openDataCollationPage_Testing" classname="org.project.Test_Cases" time="47.582"/>
-  <testcase name="add_NewItemRow_Testing" classname="org.project.Test_Cases" time="21.521"/>
-  <testcase name="fill_in_NewItemFields_Testing" classname="org.project.Test_Cases" time="2.133"/>
-  <testcase name="fill_in_ItemCategory_Testing" classname="org.project.Test_Cases" time="14.493"/>
-  <testcase name="fill_in_RightPartOfTable_Testing" classname="org.project.Test_Cases" time="9.443"/>
-  <testcase name="filling_SecondRowforAddItemTable_Testing" classname="org.project.Test_Cases" time="24.606"/>
-  <testcase name="finalize_ProcessingOfVehicleRelatedDocument_Testing" classname="org.project.Test_Cases" time="9.785"/>
-  <testcase name="postprocessing_SearchPostedVehicleRelatedDoc_Testing" classname="org.project.Test_Cases" time="37.013"/>
-  <testcase name="postprocessing_Read_StockTransportOrderNumber_Testing" classname="org.project.Test_Cases" time="7.298"/>
-  <testcase name="displayFirstMaterialDocumentPage_Testing" classname="org.project.Test_Cases" time="5.223"/>
-  <testcase name="retrieve_AddItemDataForMaterialDocument1_Testing" classname="org.project.Test_Cases" time="5.375"/>
-  <testcase name="close_currentAddItemDataForMaterialDocumentTab_Testing" classname="org.project.Test_Cases" time="2.147"/>
-  <testcase name="displaySecondMaterialDocumentPage_Testing" classname="org.project.Test_Cases" time="5.785"/>
-  <testcase name="retrieve_AddItemDataForMaterialDocument2_Testing" classname="org.project.Test_Cases" time="5.167"/>
-  <testcase name="comparing_AddItemDetails_Testing" classname="org.project.Test_Cases" time="4.005"/>
+  <testcase name="openDataCollationPage_Testing[OFQ_100, LOS](1)" classname="org.project.Test_Cases" time="37.527">
+    <system-out><![CDATA[Current System: OFQ_100
+2023-01-31 16:38:34 INFO  Waitings:119 - TOTAL TIME that the ENTIRE of DATA COLLATION PAGE page was loading: 2.492 seconds.
+Document Number: 
+Document Status: 
+2023-01-31 16:38:35 INFO  LandingPage:3809 - Document Number and Document Status fields are empty as expected.
+2023-01-31 16:38:36 INFO  Waitings:271 - TOTAL TIME that 'RESET TO DEFAULT DATA COLLATION PAGE' menu item page was loading: 0.028 seconds.
+2023-01-31 16:38:37 INFO  LandingPage:3679 - SET TO DEFAULT menu item was SUCCESSFULLY clicked on.
+2023-01-31 16:38:38 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after clicking on 'SET TO DEFAULT' menu item on PERSONALIZATION dropdown page was loading: 1.055 seconds.
+2023-01-31 16:38:39 INFO  LandingPage:3727 - 'PERSONALIZATION' button on 'ITEM DATA' table was clicked SUCCESSFULLY.
+2023-01-31 16:38:41 INFO  Waitings:119 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 1.146 seconds.
+Class value for 'Set to Default' button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:38:42 INFO  LandingPage:3613 - The 'Set to Default' button (on 'PERSONALIZATION' popup) was detected to be ENABLED.
+2023-01-31 16:38:42 INFO  LandingPage:3619 - The 'Set to Default' button (on 'PERSONALIZATION' popup) was clicked.
+2023-01-31 16:38:43 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.071 seconds.
+2023-01-31 16:38:44 INFO  LandingPage:3727 - 'PERSONALIZATION' button on 'ITEM DATA' table was clicked SUCCESSFULLY.
+2023-01-31 16:38:45 INFO  Waitings:119 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 1.053 seconds.
+Number of records in 'AVAILABLE COLUMNS' section on PERSONALIZATION popup: 1. EXPECTED is '1'
+Number of TR tags in TBODY [1] tag in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 6
+Row's title = Item Status
+2023-01-31 16:38:45 INFO  LandingPage:1348 - The 'Item Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:45 INFO  Waitings:242 - TOTAL TIME that 'Item Status' WIDTH field page was loading: 0.018 seconds.
+2023-01-31 16:38:46 INFO  LandingPage:1359 - Width for ITEM STATUS input field was SUCCESSFULLY changed.
+The class value for Item Status check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-01-31 16:38:46 INFO  LandingPage:1372 - ITEM STATUS input field was selected in the FIXED column BY DEFAULT.
+Row's title = Transfer Posting
+2023-01-31 16:38:46 INFO  LandingPage:1390 - The 'Transfer Posting' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:46 INFO  Waitings:242 - TOTAL TIME that 'Transfer Posting' WIDTH field page was loading: 0.034 seconds.
+2023-01-31 16:38:46 INFO  LandingPage:1401 - Width for TRANSFER POSTING input field was SUCCESSFULLY changed.
+The class value for Transfer Posting check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-01-31 16:38:46 INFO  LandingPage:1414 - TRANSFER POSTING input field was selected in the FIXED column BY DEFAULT.
+Number of TBODY sections was dynamically updated to [3]
+Row's title = Item Number
+2023-01-31 16:38:46 INFO  LandingPage:1432 - The 'Item Number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:46 INFO  Waitings:242 - TOTAL TIME that 'Item Number' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:47 INFO  LandingPage:1443 - Width for ITEM NUMBER input field was SUCCESSFULLY changed.
+The class value for Item Number check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-01-31 16:38:47 INFO  LandingPage:1456 - ITEM NUMBER input field was selected in the FIXED column BY DEFAULT.
+Number of TBODY sections was dynamically updated to [4]
+Row's title = Sequence Number of the Item
+2023-01-31 16:38:47 INFO  LandingPage:1474 - The 'Sequence Number of the Item' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:47 INFO  Waitings:242 - TOTAL TIME that 'Sequence Number of the Item' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:38:47 INFO  LandingPage:1485 - Width for SEQUENCE NUMBER OF THE ITEM input field was SUCCESSFULLY changed.
+The class value for Sequence Number of the Item check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-01-31 16:38:47 INFO  LandingPage:1498 - SEQUENCE NUMBER OF THE ITEM input field was selected in the FIXED column BY DEFAULT.
+Row's title = Posting Sequence
+2023-01-31 16:38:47 INFO  LandingPage:1516 - The 'Posting Sequence' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:47 INFO  Waitings:242 - TOTAL TIME that 'Posting Sequence' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:38:48 INFO  LandingPage:1527 - Width for POSTING SEQUENCE input field was SUCCESSFULLY changed.
+The class value for Posting Sequence check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-01-31 16:38:48 INFO  LandingPage:1540 - POSTING SEQUENCE input field was selected in the FIXED column BY DEFAULT.
+Row's title = Item Category
+2023-01-31 16:38:48 INFO  LandingPage:1558 - The 'Item Category' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:48 INFO  Waitings:242 - TOTAL TIME that 'Item Category' WIDTH field page was loading: 0.013 seconds.
+2023-01-31 16:38:48 INFO  LandingPage:1569 - Width for ITEM CATEGORY input field was SUCCESSFULLY changed.
+The class value for Item Category check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--checked 
+2023-01-31 16:38:48 INFO  LandingPage:1582 - ITEM CATEGORY input field was selected in the FIXED column BY DEFAULT.
+Number of new dynamic TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 4
+Number of TR tags in TBODY [2] tag in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 7
+Row's title = Reference Document
+2023-01-31 16:38:48 INFO  LandingPage:1600 - The 'Reference Document' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:48 INFO  Waitings:242 - TOTAL TIME that 'Reference Document' WIDTH field page was loading: 0.025 seconds.
+2023-01-31 16:38:49 INFO  LandingPage:1611 - Width for REFERENCE DOCUMENT input field was SUCCESSFULLY changed.
+The class value for Reference Document check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-01-31 16:38:49 INFO  LandingPage:1624 - REFERENCE DOCUMENT input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Reference Item
+2023-01-31 16:38:49 INFO  LandingPage:1642 - The 'Reference Item' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:49 INFO  Waitings:242 - TOTAL TIME that 'Reference Item' WIDTH field page was loading: 0.013 seconds.
+2023-01-31 16:38:49 INFO  LandingPage:1653 - Width for REFERENCE ITEM input field was SUCCESSFULLY changed.
+The class value for Reference Item check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:49 INFO  LandingPage:1666 - REFERENCE ITEM input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Material
+2023-01-31 16:38:49 INFO  LandingPage:1684 - The 'Material' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:49 INFO  Waitings:242 - TOTAL TIME that 'Material' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:49 INFO  LandingPage:1695 - Width for MATERIAL input field was SUCCESSFULLY changed.
+The class value for Material check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:49 INFO  LandingPage:1708 - MATERIAL ITEM input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Material description
+2023-01-31 16:38:50 INFO  LandingPage:1726 - The 'Material description' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:50 INFO  Waitings:242 - TOTAL TIME that 'Material description' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:38:50 INFO  LandingPage:1737 - Width for MATERIAL DESCRIPTION input field was SUCCESSFULLY changed.
+The class value for Material description check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:50 INFO  LandingPage:1750 - MATERIAL DESCRIPTION input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Quantity
+2023-01-31 16:38:50 INFO  LandingPage:1768 - The 'Quantity' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:50 INFO  Waitings:242 - TOTAL TIME that 'Quantity' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:38:50 INFO  LandingPage:1779 - Width for QUANTITY input field was SUCCESSFULLY changed.
+The class value for Quantity check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:50 INFO  LandingPage:1792 - QUANTITY input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Base Unit of Measure
+2023-01-31 16:38:51 INFO  LandingPage:1810 - The 'Base Unit of Measure' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:51 INFO  Waitings:242 - TOTAL TIME that 'Base Unit of Measure' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:51 INFO  LandingPage:1821 - Width for BASE UNIT OF MEASURE input field was SUCCESSFULLY changed.
+The class value for Base Unit of Measure check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:51 INFO  LandingPage:1834 - BASE UNIT OF MEASURE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Plant
+2023-01-31 16:38:51 INFO  LandingPage:1852 - The 'Plant' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:51 INFO  Waitings:242 - TOTAL TIME that 'Plant' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:51 INFO  LandingPage:1863 - Width for PLANT input field was SUCCESSFULLY changed.
+The class value for Plant check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:51 INFO  LandingPage:1876 - PLANT input field was unselected in the FIXED column BY DEFAULT.
+Number of new dynamic TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 4
+Number of TR tags in TBODY [3] tag in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 6
+Row's title = Storage location
+2023-01-31 16:38:51 INFO  LandingPage:1894 - The 'Storage location' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:51 INFO  Waitings:242 - TOTAL TIME that 'Storage location' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:52 INFO  LandingPage:1905 - Width for STORAGE LOCATION input field was SUCCESSFULLY changed.
+The class value for Storage location check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:52 INFO  LandingPage:1918 - STORAGE LOCATION input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Valuation Type
+2023-01-31 16:38:52 INFO  LandingPage:1936 - The 'Valuation Type' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:52 INFO  Waitings:242 - TOTAL TIME that 'Valuation Type' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:52 INFO  LandingPage:1947 - Width for VALUATION TYPE input field was SUCCESSFULLY changed.
+The class value for Valuation Type check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:52 INFO  LandingPage:1960 - VALUATION TYPE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Handling Type
+2023-01-31 16:38:52 INFO  LandingPage:1978 - The 'Handling Type' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:52 INFO  Waitings:242 - TOTAL TIME that 'Handling Type' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:38:53 INFO  LandingPage:1989 - Width for HANDLING TYPE input field was SUCCESSFULLY changed.
+The class value for Handling Type check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:53 INFO  LandingPage:2002 - HANDLING TYPE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Posting Date
+2023-01-31 16:38:53 INFO  LandingPage:2020 - The 'Posting Date' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:53 INFO  Waitings:242 - TOTAL TIME that 'Posting Date' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:53 INFO  LandingPage:2031 - Width for POSTING DATE input field was SUCCESSFULLY changed.
+The class value for Posting Date check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:53 INFO  LandingPage:2044 - POSTING DATE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Partner Function
+2023-01-31 16:38:53 INFO  LandingPage:2062 - The 'Partner Function' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:53 INFO  Waitings:242 - TOTAL TIME that 'Partner Function' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:54 INFO  LandingPage:2073 - Width for PARTNER FUNCTION input field was SUCCESSFULLY changed.
+The class value for Partner Function check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:54 INFO  LandingPage:2086 - PARTNER FUNCTION input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Partners
+2023-01-31 16:38:54 INFO  LandingPage:2146 - The 'Partners' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:54 INFO  Waitings:242 - TOTAL TIME that 'Partners' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:54 INFO  LandingPage:2158 - Width for PARTNERS input field was SUCCESSFULLY changed.
+The class value for Partners check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:54 INFO  LandingPage:2171 - PARTNERS input field was unselected in the FIXED column BY DEFAULT.
+Number of new dynamic TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 4
+Number of TR tags in TBODY [4] tag in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 5
+Row's title = Net Price
+2023-01-31 16:38:54 INFO  LandingPage:2189 - The 'Net Price' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:54 INFO  Waitings:242 - TOTAL TIME that 'Net Price' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:54 INFO  LandingPage:2200 - Width for NET PRICE input field was SUCCESSFULLY changed.
+The class value for Net Price check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:54 INFO  LandingPage:2213 - NET PRICE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Currency
+2023-01-31 16:38:55 INFO  LandingPage:2231 - The 'Currency' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:55 INFO  Waitings:242 - TOTAL TIME that 'Currency' WIDTH field page was loading: 0.016 seconds.
+2023-01-31 16:38:55 INFO  LandingPage:2242 - Width for CURRENCY input field was SUCCESSFULLY changed.
+The class value for Currency check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:55 INFO  LandingPage:2255 - CURRENCY input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Pricing Unit
+2023-01-31 16:38:55 INFO  LandingPage:2273 - The 'Pricing Unit' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:55 INFO  Waitings:242 - TOTAL TIME that 'Pricing Unit' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:38:55 INFO  LandingPage:2284 - Width for PRICING UNIT input field was SUCCESSFULLY changed.
+The class value for Pricing Unit check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:55 INFO  LandingPage:2297 - PRICING UNIT input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Unit of Measure
+2023-01-31 16:38:56 INFO  LandingPage:2315 - The 'Unit of Measure' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:38:56 INFO  Waitings:242 - TOTAL TIME that 'Unit of Measure' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:38:56 INFO  LandingPage:2326 - Width for UNIT OF MEASURE input field was SUCCESSFULLY changed.
+The class value for Unit of Measure check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:38:56 INFO  LandingPage:2339 - UNIT OF MEASURE input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Difference Reason
+Number of new dynamic TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 4
+2023-01-31 16:38:56 INFO  LandingPage:1188 - The 'SAVE' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-01-31 16:38:57 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.07 seconds.
+2023-01-31 16:38:59 INFO  Graphics_Screenshots:48 - EMPTY DATA COLLATION PAGE window screenshot was made. 
+2023-01-31 16:39:09 INFO  LandingPage:3789 - The 'Add Item' table DOES NOT have the automatically added first editable row!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 19680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 31, 2023 4:38:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="add_NewItemRow_Testing[OGSD_G10](1)" classname="org.project.Test_Cases" time="20.284">
+    <system-out><![CDATA[Class of NEW button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:39:09 INFO  LandingPage:4150 - Button 'NEW' is in ENABLED status.
+2023-01-31 16:39:09 INFO  LandingPage:4171 - 'NEW' button was clicked on the main toolbar.
+2023-01-31 16:39:09 INFO  Waitings:220 - TOTAL TIME that the Editable HEADER DATA Table page was loading: 0.331 seconds.
+Class of NEW button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--up lsButton--design-standard  lsButton--disabled
+2023-01-31 16:39:09 WARN  LandingPage:4152 - Button 'NEW' is in DISABLED status.
+The CLASS value for 'VEHICLE' tab is: lsTbsv5-FirstItemSel
+2023-01-31 16:39:10 INFO  Waitings:186 - TOTAL TIME that the INPUT 'VEHICLE NUMBER' EDITABLE web-element was loading: 0.028 seconds.
+2023-01-31 16:39:13 INFO  AddItemTable:813 - VEHICLE NUMBER input field is SUCCESSFULLY filled in with value: OGSD_G10
+2023-01-31 16:39:15 INFO  Waitings:336 - TOTAL TIME that the MAIN PAGE after providing 'VEHICLE NUMBER' page was loading: 0.034 seconds.
+The 'inuse' status of iFrame is: true
+2023-01-31 16:39:17 INFO  AddItemTable:744 - 'OVERVIEW FOR THE REFERENCE OBJECT' popup was closed.
+2023-01-31 16:39:17 INFO  Waitings:271 - TOTAL TIME that Status update after providing VEHICLE NUMBER value page was loading: 0.387 seconds.
+The 'value' property of 'Plant for Vehicle' input is: GP01
+2023-01-31 16:39:18 INFO  AddItemTable:716 - The PLANT FOR VEHICLE input has been autofilled with value: GP01
+The 'value' property of 'Storage Location for Vehicle' input is: G1LT
+2023-01-31 16:39:18 INFO  AddItemTable:695 - The STORAGE LOCATION FOR VEHICLE input has been autofilled with value: G1LT
+Class of ADD ITEM button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--onlyImage  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  urBtnImgBgColor  lsButton--up lsButton--design-standard 
+2023-01-31 16:39:18 INFO  LandingPage:4196 - Button 'ADD ITEM' is in ENABLED status.
+2023-01-31 16:39:28 INFO  LandingPage:3789 - The 'Add Item' table DOES NOT have the automatically added first editable row!
+2023-01-31 16:39:29 INFO  Test_Cases:264 - 'ADD ITEM' button was clicked because the 'ITEM DATA' table has NO editable rows yet.
+2023-01-31 16:39:29 INFO  Waitings:242 - TOTAL TIME that Editable first row of ADD ITEM Table - 'LEFT part' page was loading: 0.473 seconds.
+2023-01-31 16:39:29 INFO  Waitings:242 - TOTAL TIME that Editable first row of ADD ITEM Table - 'RIGHT part' page was loading: 0.042 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_NewItemFields_Testing" classname="org.project.Test_Cases" time="2.114">
+    <system-out><![CDATA[Document Number: 
+Document Status: A
+2023-01-31 16:39:31 INFO  LandingPage:3836 - Document Status field is in 'A' status as expected.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_ItemCategory_Testing" classname="org.project.Test_Cases" time="13.602">
+    <system-out><![CDATA[Number of columns in the LEFT part: 9
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Status
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Transfer Posting
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Number
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Sequence Number of the Item
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Posting Sequence
+	
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Category
+	
+ 
+2023-01-31 16:39:42 INFO  Waitings:336 - TOTAL TIME that the Updating ADD ITEM TABLE page was loading: 0.016 seconds.
+2023-01-31 16:39:43 INFO  Waitings:479 - TOTAL TIME that the RIGHT PART of ADD ITEM TABLE -> 1st ROW was observed for changing its status: 1.077 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="fill_in_RightPartOfTable_Testing[OGSD_100, 100,000, GP01, G1L1, TAX, 01, Gasoil, L15](1)" classname="org.project.Test_Cases" time="6.677">
+    <system-out><![CDATA[Number of columns in the RIGHT part: 18
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Material
+	
+ 
+2023-01-31 16:39:45 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3398 - MATERIAL element's Position from left side is: 720 pixels.
+2023-01-31 16:39:45 INFO  AddItemTable:3402 - MATERIAL element's Position from top is: 507 pixels.
+2023-01-31 16:39:45 INFO  AddItemTable:3406 - MATERIAL element width is 62 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3410 - MATERIAL element height Is 28 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3414 - MATERIAL end coordinate of Web element on X axis is: 782
+2023-01-31 16:39:45 INFO  AddItemTable:3418 - MATERIAL end coordinate of Web element on Y axis is: 535
+2023-01-31 16:39:45 INFO  AddItemTable:3477 - Material Element is completelly visible in the view port.
+2023-01-31 16:39:45 INFO  AddItemTable:2064 - MATERIAL input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 2
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 2
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+2023-01-31 16:39:45 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3398 - QUANTITY element's Position from left side is: 876 pixels.
+2023-01-31 16:39:45 INFO  AddItemTable:3402 - QUANTITY element's Position from top is: 507 pixels.
+2023-01-31 16:39:45 INFO  AddItemTable:3406 - QUANTITY element width is 72 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3410 - QUANTITY element height Is 28 pixels
+2023-01-31 16:39:45 INFO  AddItemTable:3414 - QUANTITY end coordinate of Web element on X axis is: 948
+2023-01-31 16:39:45 INFO  AddItemTable:3418 - QUANTITY end coordinate of Web element on Y axis is: 535
+2023-01-31 16:39:45 INFO  AddItemTable:3477 - Quantity Element is completelly visible in the view port.
+2023-01-31 16:39:46 INFO  AddItemTable:2097 - QUANTITY input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 3
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 3
+SPAN element Text in the RIGHT part: Plant
+	
+ 
+2023-01-31 16:39:46 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3398 - PLANT element's Position from left side is: 1024 pixels.
+2023-01-31 16:39:46 INFO  AddItemTable:3402 - PLANT element's Position from top is: 507 pixels.
+2023-01-31 16:39:46 INFO  AddItemTable:3406 - PLANT element width is 60 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3410 - PLANT element height Is 28 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3414 - PLANT end coordinate of Web element on X axis is: 1084
+2023-01-31 16:39:46 INFO  AddItemTable:3418 - PLANT end coordinate of Web element on Y axis is: 535
+2023-01-31 16:39:46 INFO  AddItemTable:3477 - Plant Element is completelly visible in the view port.
+2023-01-31 16:39:46 INFO  AddItemTable:2127 - PLANT input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 4
+SPAN element Text in the RIGHT part: Storage location
+	
+ 
+2023-01-31 16:39:46 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3398 - STORAGE LOCATION element's Position from left side is: 1086 pixels.
+2023-01-31 16:39:46 INFO  AddItemTable:3402 - STORAGE LOCATION element's Position from top is: 507 pixels.
+2023-01-31 16:39:46 INFO  AddItemTable:3406 - STORAGE LOCATION element width is 72 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3410 - STORAGE LOCATION element height Is 28 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3414 - STORAGE LOCATION end coordinate of Web element on X axis is: 1158
+2023-01-31 16:39:46 INFO  AddItemTable:3418 - STORAGE LOCATION end coordinate of Web element on Y axis is: 535
+2023-01-31 16:39:46 INFO  AddItemTable:3477 - Storage location Element is completelly visible in the view port.
+2023-01-31 16:39:46 INFO  AddItemTable:2157 - STORAGE LOCATION input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 5
+SPAN element Text in the RIGHT part: Valuation Type
+	
+ 
+2023-01-31 16:39:46 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:39:46 INFO  AddItemTable:3398 - VALUATION TYPE element's Position from left side is: 1160 pixels.
+2023-01-31 16:39:46 INFO  AddItemTable:3402 - VALUATION TYPE element's Position from top is: 507 pixels.
+2023-01-31 16:39:47 INFO  AddItemTable:3406 - VALUATION TYPE element width is 72 pixels
+2023-01-31 16:39:47 INFO  AddItemTable:3410 - VALUATION TYPE element height Is 28 pixels
+2023-01-31 16:39:47 INFO  AddItemTable:3414 - VALUATION TYPE end coordinate of Web element on X axis is: 1232
+2023-01-31 16:39:47 INFO  AddItemTable:3418 - VALUATION TYPE end coordinate of Web element on Y axis is: 535
+2023-01-31 16:39:47 INFO  AddItemTable:3477 - Valuation Type Element is completelly visible in the view port.
+2023-01-31 16:39:47 INFO  AddItemTable:2186 - VALUATION TYPE input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 6
+SPAN element Text in the RIGHT part: Handling Type
+	
+ 
+2023-01-31 16:39:47 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:39:47 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:39:47 INFO  AddItemTable:3398 - HANDLING TYPE element's Position from left side is: 1234 pixels.
+2023-01-31 16:39:47 INFO  AddItemTable:3402 - HANDLING TYPE element's Position from top is: 507 pixels.
+2023-01-31 16:39:47 INFO  AddItemTable:3406 - HANDLING TYPE element width is 72 pixels
+2023-01-31 16:39:47 INFO  AddItemTable:3410 - HANDLING TYPE element height Is 28 pixels
+2023-01-31 16:39:47 INFO  AddItemTable:3414 - HANDLING TYPE end coordinate of Web element on X axis is: 1306
+2023-01-31 16:39:47 INFO  AddItemTable:3418 - HANDLING TYPE end coordinate of Web element on Y axis is: 535
+2023-01-31 16:39:47 INFO  AddItemTable:3477 - Handling Type Element is completelly visible in the view port.
+2023-01-31 16:39:49 INFO  AddItemTable:2216 - HANDLING TYPE input field is SUCCESSFULLY filled in.
+Number of columns in the RIGHT part: 18
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Material
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+2023-01-31 16:39:51 INFO  AddItemTable:3026 - MATERIAL DESCRIPTION input field is AUTOFILLED with the value 'Gasoil'.
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+2023-01-31 16:39:51 INFO  AddItemTable:3057 - BASE UNIT OF MEASURE input field is AUTOFILLED with the value 'L15'.
+]]></system-out>
+  </testcase>
+  <testcase name="filling_SecondRowforAddItemTable_Testing[UOS, OGSD_100, 100,000, GP01, G1L1, TAX, 01, Gasoil, L15](1)" classname="org.project.Test_Cases" time="21.714">
+    <system-out><![CDATA[2023-01-31 16:39:51 INFO  Test_Cases:338 - 'ADD ITEM' button was clicked to add the second row into the 'ITEM DATA' table.
+2023-01-31 16:39:52 INFO  Waitings:242 - TOTAL TIME that Editable second row of ADD ITEM Table - 'LEFT part' page was loading: 0.466 seconds.
+2023-01-31 16:39:52 INFO  Waitings:242 - TOTAL TIME that Editable second row of ADD ITEM Table - 'RIGHT part' page was loading: 0.033 seconds.
+Number of columns in the LEFT part: 9
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Status
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Transfer Posting
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Number
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Sequence Number of the Item
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Posting Sequence
+	
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Category
+	
+ 
+2023-01-31 16:40:03 INFO  Waitings:336 - TOTAL TIME that the Updating ADD ITEM TABLE page was loading: 0.009 seconds.
+2023-01-31 16:40:05 INFO  Waitings:479 - TOTAL TIME that the RIGHT PART of ADD ITEM TABLE -> 2nd ROW was observed for changing its status: 1.077 seconds.
+Number of columns in the RIGHT part: 18
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 1
+SPAN element Text in the RIGHT part: Material
+	
+ 
+2023-01-31 16:40:07 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3398 - MATERIAL element's Position from left side is: 720 pixels.
+2023-01-31 16:40:07 INFO  AddItemTable:3402 - MATERIAL element's Position from top is: 507 pixels.
+2023-01-31 16:40:07 INFO  AddItemTable:3406 - MATERIAL element width is 62 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3410 - MATERIAL element height Is 28 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3414 - MATERIAL end coordinate of Web element on X axis is: 782
+2023-01-31 16:40:07 INFO  AddItemTable:3418 - MATERIAL end coordinate of Web element on Y axis is: 535
+2023-01-31 16:40:07 INFO  AddItemTable:3477 - Material Element is completelly visible in the view port.
+2023-01-31 16:40:07 INFO  AddItemTable:2064 - MATERIAL input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 2
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 2
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+2023-01-31 16:40:07 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3398 - QUANTITY element's Position from left side is: 876 pixels.
+2023-01-31 16:40:07 INFO  AddItemTable:3402 - QUANTITY element's Position from top is: 507 pixels.
+2023-01-31 16:40:07 INFO  AddItemTable:3406 - QUANTITY element width is 72 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3410 - QUANTITY element height Is 28 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3414 - QUANTITY end coordinate of Web element on X axis is: 948
+2023-01-31 16:40:07 INFO  AddItemTable:3418 - QUANTITY end coordinate of Web element on Y axis is: 535
+2023-01-31 16:40:07 INFO  AddItemTable:3477 - Quantity Element is completelly visible in the view port.
+2023-01-31 16:40:07 INFO  AddItemTable:2097 - QUANTITY input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 3
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 3
+SPAN element Text in the RIGHT part: Plant
+	
+ 
+2023-01-31 16:40:07 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:40:07 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3398 - PLANT element's Position from left side is: 1024 pixels.
+2023-01-31 16:40:08 INFO  AddItemTable:3402 - PLANT element's Position from top is: 507 pixels.
+2023-01-31 16:40:08 INFO  AddItemTable:3406 - PLANT element width is 60 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3410 - PLANT element height Is 28 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3414 - PLANT end coordinate of Web element on X axis is: 1084
+2023-01-31 16:40:08 INFO  AddItemTable:3418 - PLANT end coordinate of Web element on Y axis is: 535
+2023-01-31 16:40:08 INFO  AddItemTable:3477 - Plant Element is completelly visible in the view port.
+2023-01-31 16:40:08 INFO  AddItemTable:2127 - PLANT input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 4
+SPAN element Text in the RIGHT part: Storage location
+	
+ 
+2023-01-31 16:40:08 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3398 - STORAGE LOCATION element's Position from left side is: 1086 pixels.
+2023-01-31 16:40:08 INFO  AddItemTable:3402 - STORAGE LOCATION element's Position from top is: 507 pixels.
+2023-01-31 16:40:08 INFO  AddItemTable:3406 - STORAGE LOCATION element width is 72 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3410 - STORAGE LOCATION element height Is 28 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3414 - STORAGE LOCATION end coordinate of Web element on X axis is: 1158
+2023-01-31 16:40:08 INFO  AddItemTable:3418 - STORAGE LOCATION end coordinate of Web element on Y axis is: 535
+2023-01-31 16:40:08 INFO  AddItemTable:3477 - Storage location Element is completelly visible in the view port.
+2023-01-31 16:40:08 INFO  AddItemTable:2157 - STORAGE LOCATION input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 5
+SPAN element Text in the RIGHT part: Valuation Type
+	
+ 
+2023-01-31 16:40:08 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3398 - VALUATION TYPE element's Position from left side is: 1160 pixels.
+2023-01-31 16:40:08 INFO  AddItemTable:3402 - VALUATION TYPE element's Position from top is: 507 pixels.
+2023-01-31 16:40:08 INFO  AddItemTable:3406 - VALUATION TYPE element width is 72 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3410 - VALUATION TYPE element height Is 28 pixels
+2023-01-31 16:40:08 INFO  AddItemTable:3414 - VALUATION TYPE end coordinate of Web element on X axis is: 1232
+2023-01-31 16:40:08 INFO  AddItemTable:3418 - VALUATION TYPE end coordinate of Web element on Y axis is: 535
+2023-01-31 16:40:08 INFO  AddItemTable:3477 - Valuation Type Element is completelly visible in the view port.
+2023-01-31 16:40:08 INFO  AddItemTable:2186 - VALUATION TYPE input field is SUCCESSFULLY filled in.
+Counter of Needed columns in the RIGHT part of ADD ITEM table: 6
+SPAN element Text in the RIGHT part: Handling Type
+	
+ 
+2023-01-31 16:40:09 INFO  AddItemTable:3388 - Browser window height is 910 pixels
+2023-01-31 16:40:09 INFO  AddItemTable:3392 - Browser window width is 1881 pixels
+2023-01-31 16:40:09 INFO  AddItemTable:3398 - HANDLING TYPE element's Position from left side is: 1234 pixels.
+2023-01-31 16:40:09 INFO  AddItemTable:3402 - HANDLING TYPE element's Position from top is: 507 pixels.
+2023-01-31 16:40:09 INFO  AddItemTable:3406 - HANDLING TYPE element width is 72 pixels
+2023-01-31 16:40:09 INFO  AddItemTable:3410 - HANDLING TYPE element height Is 28 pixels
+2023-01-31 16:40:09 INFO  AddItemTable:3414 - HANDLING TYPE end coordinate of Web element on X axis is: 1306
+2023-01-31 16:40:09 INFO  AddItemTable:3418 - HANDLING TYPE end coordinate of Web element on Y axis is: 535
+2023-01-31 16:40:09 INFO  AddItemTable:3477 - Handling Type Element is completelly visible in the view port.
+2023-01-31 16:40:11 INFO  AddItemTable:2216 - HANDLING TYPE input field is SUCCESSFULLY filled in.
+Number of columns in the RIGHT part: 18
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Material
+	
+ 
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Material description
+	
+ 
+2023-01-31 16:40:13 INFO  AddItemTable:3026 - MATERIAL DESCRIPTION input field is AUTOFILLED with the value 'Gasoil'.
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Base Unit of Measure
+	
+ 
+2023-01-31 16:40:13 INFO  AddItemTable:3057 - BASE UNIT OF MEASURE input field is AUTOFILLED with the value 'L15'.
+]]></system-out>
+  </testcase>
+  <testcase name="finalize_ProcessingOfVehicleRelatedDocument_Testing" classname="org.project.Test_Cases" time="8.715">
+    <system-out><![CDATA[Class of CHECK button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:40:13 INFO  PostProcessing:635 - Button 'CHECK' is in ENABLED status.
+2023-01-31 16:40:13 INFO  PostProcessing:528 - The pre-conditioned status before clicking on CHECK button is hidden as expected.
+2023-01-31 16:40:14 INFO  Waitings:271 - TOTAL TIME that 'PAT DOCUMENT IS COMPLETE' status message page was loading: 0.463 seconds.
+Document Number: 
+Document Status: B
+2023-01-31 16:40:15 INFO  LandingPage:3841 - Document Status field is in 'B' status as expected.
+Class of RELEASE button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:40:15 INFO  PostProcessing:658 - Button 'RELEASE' is in ENABLED status.
+2023-01-31 16:40:15 INFO  Waitings:271 - TOTAL TIME that Status update after clicking on RELEASE button page was loading: 0.016 seconds.
+2023-01-31 16:40:15 INFO  PostProcessing:555 - The preconditioned status 'PAT document is complete' is displayed as expected before clicking on RELEASE button
+2023-01-31 16:40:15 INFO  Waitings:271 - TOTAL TIME that 'PAT DOCUMENT WAS RELEASED' status message page was loading: 0.341 seconds.
+Document Number: 
+Document Status: C
+2023-01-31 16:40:16 INFO  LandingPage:3846 - Document Status field is in 'C' status as expected.
+Class of SAVE button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:40:16 INFO  PostProcessing:681 - Button 'SAVE' is in ENABLED status.
+2023-01-31 16:40:16 INFO  Waitings:271 - TOTAL TIME that Status update after clicking on SAVE button page was loading: 0.016 seconds.
+2023-01-31 16:40:16 INFO  PostProcessing:582 - The preconditioned status 'PAT document was released' is displayed as expected before clicking on RELEASE button
+2023-01-31 16:40:17 INFO  Waitings:271 - TOTAL TIME that 'PAT DOCUMENT WAS SAVED' status message page was loading: 0.415 seconds.
+Document Number: 9143
+Document Number: 9143
+Document Status: C
+2023-01-31 16:40:18 INFO  LandingPage:3867 - Document Status field is in 'C' status as expected. Document Number is 9143.
+Class of PROCESS button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:40:18 INFO  PostProcessing:703 - Button 'PROCESS' is in ENABLED status.
+2023-01-31 16:40:18 INFO  Waitings:271 - TOTAL TIME that PROCESS button gets ENABLED page was loading: 0.02 seconds.
+2023-01-31 16:40:18 INFO  PostProcessing:608 - The preconditioned status 'Document '9143' was saved' is displayed as expected before clicking on PROCESS button
+2023-01-31 16:40:19 INFO  Waitings:271 - TOTAL TIME that PROCESSING OPERATION NOTIFICATION page was loading: 1.38 seconds.
+2023-01-31 16:40:21 INFO  Waitings:271 - TOTAL TIME that DOCUMENT STATUS 'F' page was loading: 0.043 seconds.
+Document Number: 9143
+Document Status: F
+2023-01-31 16:40:21 INFO  LandingPage:3872 - Document Status field is in 'F' status as expected. Document Number is 9143.
+2023-01-31 16:40:22 INFO  Graphics_Screenshots:48 - COMPLETED DATA COLLATION PAGE window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_SearchPostedVehicleRelatedDoc_Testing" classname="org.project.Test_Cases" time="41.278">
+    <system-out><![CDATA[Class of LOCATOR button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-toggle 
+2023-01-31 16:40:22 INFO  Locator_DocCompare:1114 - Button 'LOCATOR' is in ENABLED status.
+2023-01-31 16:40:22 INFO  Locator_DocCompare:1133 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-01-31 16:40:22 INFO  Waitings:271 - TOTAL TIME that LOCATOR PANEL page was loading: 0.47 seconds.
+2023-01-31 16:40:23 INFO  Waitings:336 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 0.014 seconds.
+Class value for 'Set to Default' button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:40:28 INFO  Locator_DocCompare:995 - The 'Set to Default' button (on 'PERSONALIZATION' popup) was detected to be ENABLED.
+2023-01-31 16:40:28 INFO  Locator_DocCompare:1001 - The 'Set to Default' button (on 'PERSONALIZATION' popup) was clicked.
+2023-01-31 16:40:29 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup on LOCATOR PANEL page was loading: 1.103 seconds.
+2023-01-31 16:40:30 INFO  Waitings:336 - TOTAL TIME that the PERSONALIZATION POPUP page was loading: 0.018 seconds.
+Number of records in 'AVAILABLE COLUMNS' section on PERSONALIZATION popup: 1. EXPECTED is '1'
+Number of TR tags in TBODY [1] tag in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 6
+Row's title = Document Status
+2023-01-31 16:40:34 INFO  Locator_DocCompare:448 - The 'Document Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:34 INFO  Waitings:242 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.017 seconds.
+The size of 'DOCUMENT STATUS' cell is equeal to: 198
+2023-01-31 16:40:35 INFO  Locator_DocCompare:466 - Width for DOCUMENT STATUS input field was SUCCESSFULLY changed.
+The class value for Document Status check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-01-31 16:40:35 INFO  Locator_DocCompare:479 - DOCUMENT STATUS input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Document Number
+2023-01-31 16:40:35 INFO  Locator_DocCompare:498 - The 'Document Number' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:35 INFO  Waitings:242 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.018 seconds.
+2023-01-31 16:40:36 INFO  Locator_DocCompare:510 - Width for DOCUMENT NUMBER input field was SUCCESSFULLY changed.
+The class value for Document Number check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:40:36 INFO  Locator_DocCompare:523 - DOCUMENT NUMBER input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Document Status
+2023-01-31 16:40:36 INFO  Locator_DocCompare:448 - The 'Document Status' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:36 INFO  Waitings:242 - TOTAL TIME that 'Document Number' WIDTH field page was loading: 0.014 seconds.
+The size of 'DOCUMENT STATUS' cell is equeal to: 198
+2023-01-31 16:40:37 INFO  Locator_DocCompare:466 - Width for DOCUMENT STATUS input field was SUCCESSFULLY changed.
+The class value for Document Status check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:40:37 INFO  Locator_DocCompare:479 - DOCUMENT STATUS input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Created On
+2023-01-31 16:40:37 INFO  Locator_DocCompare:541 - The 'Created on' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:37 INFO  Waitings:242 - TOTAL TIME that 'Created on' WIDTH field page was loading: 0.013 seconds.
+2023-01-31 16:40:38 INFO  Locator_DocCompare:553 - Width for CREATED ON input field was SUCCESSFULLY changed.
+The class value for Created On check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:40:38 INFO  Locator_DocCompare:566 - CREATED ON input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Created By
+2023-01-31 16:40:38 INFO  Locator_DocCompare:585 - The 'Created by' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:38 INFO  Waitings:242 - TOTAL TIME that 'Created by' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:40:39 INFO  Locator_DocCompare:597 - Width for CREATED BY input field was SUCCESSFULLY changed.
+The class value for Created By check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:40:39 INFO  Locator_DocCompare:610 - CREATED BY input field was unselected in the FIXED column BY DEFAULT.
+Row's title = Changed On
+2023-01-31 16:40:39 INFO  Locator_DocCompare:629 - The 'Changed On' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:39 INFO  Waitings:242 - TOTAL TIME that 'Changed On' WIDTH field page was loading: 0.014 seconds.
+2023-01-31 16:40:40 INFO  Locator_DocCompare:641 - Width for CHANGED ON input field was SUCCESSFULLY changed.
+The class value for Changed On check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked--disabled 
+2023-01-31 16:40:40 INFO  Locator_DocCompare:654 - CHANGED ON input field was unselected in the FIXED column BY DEFAULT.
+Number of new dynamic TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 2
+Number of TR tags in TBODY [2] tag in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 1
+Row's title = Changed By
+2023-01-31 16:40:40 INFO  Locator_DocCompare:673 - The 'Changed by' WIDTH field (on 'PERSONALIZATION' popup) was clicked for editing.
+2023-01-31 16:40:40 INFO  Waitings:242 - TOTAL TIME that 'Changed by' WIDTH field page was loading: 0.015 seconds.
+2023-01-31 16:40:41 INFO  Locator_DocCompare:685 - Width for CHANGED BY input field was SUCCESSFULLY changed.
+The class value for Changed By check-box is: lsSelector--generic lsSelector--shrinked lsSelector--shrinked lsSelector--usedInSapTable lsCheckBox--unchecked 
+2023-01-31 16:40:41 INFO  Locator_DocCompare:698 - CHANGED BY input field was unselected in the FIXED column BY DEFAULT.
+Number of new dynamic TBODY tags in 'DISPLAYED COLUMNS' section on PERSONALIZATION popup: 2
+2023-01-31 16:40:42 INFO  LandingPage:1188 - The 'SAVE' button (on 'PERSONALIZATION' popup) was clicked to save Default Settings.
+2023-01-31 16:40:43 INFO  Waitings:119 - TOTAL TIME that the DATA COLLATION PAGE after closing PERSONALIZATION popup page was loading: 1.121 seconds.
+DOCUMENT NUMBER dropdown value: Changed At
+2023-01-31 16:40:45 INFO  Waitings:271 - TOTAL TIME that DOCUMENT NUMBER DROPDOWN page was loading: 0.015 seconds.
+2023-01-31 16:40:45 INFO  Locator_DocCompare:1161 - The 'DOCUMENT NUMBER' input has been changed to 'DOCUMENT NUMBER' value.
+2023-01-31 16:40:45 INFO  Waitings:336 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.017 seconds.
+DOCUMENT CONDITION dropdown value: is
+2023-01-31 16:40:49 INFO  Waitings:271 - TOTAL TIME that DOCUMENT CONDITION DROPDOWN page was loading: 0.019 seconds.
+2023-01-31 16:40:49 INFO  Locator_DocCompare:1192 - The 'DOCUMENT CONDITION' input has been changed to 'IS' value.
+2023-01-31 16:40:51 INFO  Locator_DocCompare:1208 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '9143'.
+2023-01-31 16:40:54 INFO  Locator_DocCompare:1341 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-01-31 16:40:54 INFO  Waitings:271 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.494 seconds.
+Number of non-empty rows in the SEARCH RESULTS table: 1
+Number of columns in the SEARCH RESULTS table: 7
+Counter of Needed columns in the SEARCH RESULTS table: 1
+SPAN element Text in the SEARCH RESULTS table: Document Status
+		
+ 
+2023-01-31 16:40:56 INFO  Locator_DocCompare:1413 - DOCUMNET STATUS in row #1 is equal to: Posted
+Counter of Needed columns in the SEARCH RESULTS table: 2
+SPAN element Text in the SEARCH RESULTS table: Document Number
+		
+ 
+2023-01-31 16:40:56 INFO  Locator_DocCompare:1426 - DOCUMNET NUMBER in row #1 is equal to: 9143
+2023-01-31 16:40:57 INFO  Locator_DocCompare:1458 - DOCUMNET STATUS is correctly correlated with DOCUMENT NUMBER in row #1: POSTED and 9143
+2023-01-31 16:40:58 INFO  Graphics_Screenshots:48 - LOCATOR PANEL WITH DOCUMENT STATUS window screenshot was made. 
+Class of LOCATOR button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--down lsButton--design-toggle 
+2023-01-31 16:41:00 INFO  Locator_DocCompare:1114 - Button 'LOCATOR' is in ENABLED status.
+2023-01-31 16:41:00 INFO  Locator_DocCompare:1095 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_ReverseOrder_Testing[XLO-XUO](1)" classname="org.project.Test_Cases" time="6.979">
+    <system-out><![CDATA[Class of REVERSE button: lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--toolbar-image  lsButton--active  lsButton--focusable  lsButton--up lsButton--design-standard 
+2023-01-31 16:41:03 INFO  PostProcessing:493 - Button 'REVERSE' is in ENABLED status.
+2023-01-31 16:41:03 INFO  Waitings:479 - TOTAL TIME that the REVERSE button gets ENABLED was observed for changing its status: 0.03 seconds.
+2023-01-31 16:41:05 INFO  Waitings:220 - TOTAL TIME that the WARNING POPUP ON REVERSE ACTION page was loading: 0.025 seconds.
+2023-01-31 16:41:06 INFO  LandingPage:937 - 'OK' button was SUCCESSFULLY clicked on WARNING popup.
+2023-01-31 16:41:08 INFO  Waitings:154 - TOTAL TIME that the WARNING POPUP web-element was loading: 1.151 seconds.
+2023-01-31 16:41:08 INFO  Waitings:336 - TOTAL TIME that the MAIN PAGE after closing WARNING POPUP page was loading: 0.018 seconds.
+Reversed Document Number: 9144
+Reversed Document Number: 9144
+Reversed Document Number: 9144
+2023-01-31 16:41:10 INFO  Graphics_Screenshots:48 - REVERSED DOCUMENT PAGE window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_SearchingCancelledOrder_Testing" classname="org.project.Test_Cases" time="24.389">
+    <system-out><![CDATA[2023-01-31 16:41:10 INFO  Locator_DocCompare:1133 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-01-31 16:41:11 INFO  Waitings:271 - TOTAL TIME that LOCATOR PANEL page was loading: 0.383 seconds.
+DOCUMENT NUMBER dropdown value: Document Number
+2023-01-31 16:41:12 INFO  Locator_DocCompare:187 - The 'DOCUMENT NUMBER' input has 'Document Number' value selected by default as expected.
+2023-01-31 16:41:12 INFO  Waitings:336 - TOTAL TIME that the DOCUMENT CONDITION dropdown on LOCATOR pane page was loading: 0.014 seconds.
+DOCUMENT CONDITION dropdown value: is
+2023-01-31 16:41:15 INFO  Waitings:271 - TOTAL TIME that DOCUMENT CONDITION DROPDOWN page was loading: 0.019 seconds.
+2023-01-31 16:41:15 INFO  Locator_DocCompare:215 - The 'DOCUMENT CONDITION' input has been changed to 'IS' value.
+2023-01-31 16:41:15 INFO  Locator_DocCompare:235 - DOCUMENT NUMBER input field is SUCCESSFULLY filled in with '9144'.
+2023-01-31 16:41:16 INFO  Locator_DocCompare:1341 - The 'SEARCH' button was SUCCESSFULLY clicked on.
+2023-01-31 16:41:16 INFO  Waitings:271 - TOTAL TIME that RESULTS LIST TABLE page was loading: 0.015 seconds.
+2023-01-31 16:41:27 INFO  Locator_DocSearch:79 - The FIRST ROW in SEARCH RESULTS was SUCCESSFULLY clicked on.
+2023-01-31 16:41:27 INFO  Waitings:72 - TOTAL TIME that the DOCUMENT's STATUS ICON web-element was loading: 0.015 seconds.
+2023-01-31 16:41:30 INFO  Waitings:186 - TOTAL TIME that the UPDATED 'VEHICLE-RELATED DATA COLLATION' page after clicking on the result in LOCATOR panel web-element was loading: 0.051 seconds.
+2023-01-31 16:41:32 INFO  Locator_DocCompare:1095 - The 'LOCATOR' button was SUCCESSFULLY clicked on.
+2023-01-31 16:41:32 INFO  Waitings:336 - TOTAL TIME that the UPDATED MAIN PAGE after closing LOCATOR PANEL page was loading: 0.013 seconds.
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_ProcessReversedOrder_Testing" classname="org.project.Test_Cases" time="21.624">
+    <system-out><![CDATA[2023-01-31 16:41:35 INFO  Waitings:479 - TOTAL TIME that the PROCESS button gets ENABLED was observed for changing its status: 0.049 seconds.
+2023-01-31 16:41:36 INFO  Waitings:271 - TOTAL TIME that PROCESSING COMPLETED NOTIFICATION page was loading: 1.533 seconds.
+2023-01-31 16:41:36 INFO  Waitings:271 - TOTAL TIME that DOCUMENT STATUS 'F' page was loading: 0.065 seconds.
+Document Number: 9144
+Document Status: F
+2023-01-31 16:41:37 INFO  LandingPage:3872 - Document Status field is in 'F' status as expected. Document Number is 9144.
+Number of columns in the LEFT part: 9
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Status
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Transfer Posting
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Number
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Sequence Number of the Item
+	
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Posting Sequence
+	
+		
+ 
+Counter of Needed columns in the LEFT part of ADD ITEM table: 0
+SPAN element Text in the LEFT part: Item Category
+	
+ 
+'ITEM CATEGORY' after REVERSING in ROW# '1' is equal to: XUO
+2023-01-31 16:41:47 INFO  PostProcessing:320 - 'ITEM CATEGORY' after REVERSING in ROW# '1' is equal to : XUO AS EXPECTED.
+'ITEM CATEGORY' after REVERSING in ROW# '2' is equal to: XLO
+2023-01-31 16:41:48 INFO  PostProcessing:320 - 'ITEM CATEGORY' after REVERSING in ROW# '2' is equal to : XLO AS EXPECTED.
+Number of columns in the RIGHT part: 18
+Counter of Needed columns: 1
+SPAN element Text in the RIGHT part: Reference Document
+	
+ 
+Truncated 'REFERENCE DOCUMENT' is equal to: 9143
+The 'reversedNum' is equal to: 9143
+The 'reversedNumString' is equal to: 9143
+2023-01-31 16:41:48 INFO  PostProcessing:220 - REFERENCE DOCUMENT # '9143' in ROW # 1 IS LESSER by 1 than the REVERSED DOCUMNET # '9144' AS EXPECTED.
+Truncated 'REFERENCE DOCUMENT' is equal to: 9143
+The 'reversedNum' is equal to: 9143
+The 'reversedNumString' is equal to: 9143
+2023-01-31 16:41:48 INFO  PostProcessing:220 - REFERENCE DOCUMENT # '9143' in ROW # 2 IS LESSER by 1 than the REVERSED DOCUMNET # '9144' AS EXPECTED.
+Counter of Needed columns: 2
+SPAN element Text in the RIGHT part: Reference Item
+	
+ 
+2023-01-31 16:41:48 INFO  PostProcessing:254 - REFERENCE ITEM # '000020' in ROW # 1 IS EQUAL to '000020' AS EXPECTED.
+2023-01-31 16:41:48 INFO  PostProcessing:254 - REFERENCE ITEM # '000010' in ROW # 2 IS EQUAL to '000010' AS EXPECTED.
+2023-01-31 16:41:48 INFO  Graphics_Screenshots:48 - REPROCESSED DOCUMENT PAGE window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="postprocessing_Read_StockTransportOrderNumber_Testing" classname="org.project.Test_Cases" time="9.74">
+    <system-out><![CDATA[2023-01-31 16:41:59 INFO  Waitings:119 - TOTAL TIME that the DOCUMENT FLOW table -> 2nd SUB-ROW page was loading: 1.412 seconds.
+2023-01-31 16:42:01 INFO  Waitings:119 - TOTAL TIME that the DOCUMENT FLOW table -> 3rd SUB-ROW page was loading: 1.438 seconds.
+2023-01-31 16:42:02 INFO  Waitings:119 - TOTAL TIME that the DOCUMENT FLOW table -> 4th SUB-ROW page was loading: 1.045 seconds.
+The text from the 3rd row in the DOCUMENT FLOW table: 49000167672023 - Cancelled goods movement
+ROW# 3 - Retrieved 'CANCELLED GOODS MOVEMENT' number = 49000167672023
+2023-01-31 16:42:03 INFO  LandingPage:724 - 'Cancelled Goods Movement Document' number was successfully retrieved from the 3rd row of the DOCUMENT FLOW table. It is equal to '49000167672023' 
+The text from the 4th row in the DOCUMENT FLOW table: 49000167682023 - Cancelled goods movement
+ROW# 4 - Retrieved 'CANCELLED GOODS MOVEMENT' number = 49000167682023
+2023-01-31 16:42:04 INFO  LandingPage:777 - 'Cancelled Goods Movement Document' number was successfully retrieved from the 4th row of the DOCUMENT FLOW table. It is equal to '49000167682023' 
+2023-01-31 16:42:06 INFO  Graphics_Screenshots:48 - DOCUMENT FLOW SECTION COMPLETED window screenshot was made. 
+]]></system-out>
+  </testcase>
+  <testcase name="displayFirstMaterialDocumentPage_Testing[OFQ_100](1)" classname="org.project.Test_Cases" time="4.228">
+    <system-out><![CDATA[Current System: OFQ_100
+Current Handle TAB: CDwindow-6A827309C5EA18FBF6C9F39C12A75EEA
+Number of currently opened Web-Browser tabs: 2
+Name of currently opened Tab: CDwindow-6A827309C5EA18FBF6C9F39C12A75EEA
+Name of currently opened Tab: CDwindow-DA3BAB6F45C1AC2C168CFC04CE005FB9
+2023-01-31 16:42:08 INFO  Waitings:72 - TOTAL TIME that the FIRST 'MATERIAL DOCUMENT' PAGE web-element was loading: 1.209 seconds.
+Retrieved 'MATERIAL DOCUMENT NUMBER' from newly opened tab is: 4900016767
+Retrieved 'MATERIAL DOCUMENT NUMBER YEAR' from newly opened tab is: 2023
+2023-01-31 16:42:09 INFO  MaterialDocPage:652 - Retrieved full 'MATERIAL DOCUMENT NUMBER' from newly opened tab is: 49000167672023
+]]></system-out>
+  </testcase>
+  <testcase name="retrieve_AddItemDataForMaterialDocument1_Testing" classname="org.project.Test_Cases" time="5.214">
+    <system-out><![CDATA[Number of columns in the RIGHT part: 86
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Mat. Short Text
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Warranty
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Qty in UnE
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: EUn
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: SLoc
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Handling Type
+	
+ 
+Retrieved 'Handling Type' value: 01
+2023-01-31 16:42:10 INFO  MaterialDocPage:322 - HANDLING TYPE value has been SUCCESSFULLY read from ADD ITEM table for comparison: 01.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 2
+SPAN element Text in the RIGHT part: Stock Segment
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 2
+SPAN element Text in the RIGHT part: Batch
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 2
+SPAN element Text in the RIGHT part: Valuation Type
+	
+ 
+Retrieved 'Valuation Type' value: TAX
+2023-01-31 16:42:11 INFO  MaterialDocPage:302 - VALUATION TYPE value has been SUCCESSFULLY read from ADD ITEM table for comparison: TAX.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Movement type
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Direction
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Stock Type
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Plnt
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: JIT Call Number
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Item
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Special Stock
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Sales order
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Sales ord. item
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: WBS Element
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Material Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Material Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Plant Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Plnt Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLoc Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLoc Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Storage Bin TrfrPstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Rec. Stock Seg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Batch Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Restr. Trfr Posting
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Val. Type Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SpecStck Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SlsOrder Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SlsOrd Itm TrfrPg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: WBS Element TrfrPstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Purchase order
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Item
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Del. Date
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Reservation
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Item no.
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Final issue
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Date of Manuf.
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLED/BBD
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: DateofManufact. TrPg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLED/BBD Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+Retrieved 'Quantity' value: 100,000
+2023-01-31 16:42:13 INFO  MaterialDocPage:216 - QUANTITY value has been SUCCESSFULLY read from ADD ITEM table for comparison: 100,000.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 4
+SPAN element Text in the RIGHT part: Base Unit
+	
+ 
+Retrieved 'Base Unit of Measurement' value: L15
+2023-01-31 16:42:13 INFO  MaterialDocPage:237 - BASE UNIT value has been SUCCESSFULLY read from ADD ITEM table for comparison: L15.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Text
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Unloading Point
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Recipient
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Material
+	
+ 
+Retrieved 'Material' value: OGSD_100
+2023-01-31 16:42:13 INFO  MaterialDocPage:194 - MATERIAL value has been SUCCESSFULLY read from ADD ITEM table for comparison: OGSD_100.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 6
+SPAN element Text in the RIGHT part: Plant
+	
+ 
+Retrieved 'Plant' value: GP01
+2023-01-31 16:42:13 INFO  MaterialDocPage:259 - PLANT value has been SUCCESSFULLY read from ADD ITEM table for comparison: GP01.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 7
+SPAN element Text in the RIGHT part: Stor. Location
+	
+ 
+Retrieved 'Storage Location' value: G1LT
+2023-01-31 16:42:13 INFO  MaterialDocPage:281 - STORAGE LOCATION value has been SUCCESSFULLY read from ADD ITEM table for comparison: G1LT.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+The value of String 'Material_Gain = 'OGSD_100
+The value of String 'Quantity_Gain = '100,000
+The value of String 'BaseUnitOfMeasure_Gain = 'L15
+The value of String 'Plant_Gain = 'GP01
+The value of String 'StorageLocation_Gain2 = 'G1LT
+The value of String 'ValuationType_Gain = 'TAX
+The value of String 'HandlingType_Gain = '01
+]]></system-out>
+  </testcase>
+  <testcase name="close_currentAddItemDataForMaterialDocumentTab_Testing" classname="org.project.Test_Cases" time="2.146">
+    <system-out><![CDATA[Current Handle TAB: CDwindow-DA3BAB6F45C1AC2C168CFC04CE005FB9
+Name of currently opened Tab: CDwindow-6A827309C5EA18FBF6C9F39C12A75EEA
+Name of currently opened Tab: CDwindow-DA3BAB6F45C1AC2C168CFC04CE005FB9
+]]></system-out>
+  </testcase>
+  <testcase name="displaySecondMaterialDocumentPage_Testing[OFQ_100](1)" classname="org.project.Test_Cases" time="3.827">
+    <system-out><![CDATA[Current System: OFQ_100
+Current Handle TAB: CDwindow-6A827309C5EA18FBF6C9F39C12A75EEA
+Number of currently opened Web-Browser tabs: 2
+Name of currently opened Tab: CDwindow-6A827309C5EA18FBF6C9F39C12A75EEA
+Name of currently opened Tab: CDwindow-78F5F3951292C68980EB887B92DC31CD
+2023-01-31 16:42:19 INFO  Waitings:72 - TOTAL TIME that the SECOND 'MATERIAL DOCUMENT' PAGE web-element was loading: 0.958 seconds.
+Retrieved 'MATERIAL DOCUMENT NUMBER' from newly opened tab is: 4900016768
+Retrieved 'MATERIAL DOCUMENT NUMBER YEAR' from newly opened tab is: 2023
+2023-01-31 16:42:20 INFO  MaterialDocPage:652 - Retrieved full 'MATERIAL DOCUMENT NUMBER' from newly opened tab is: 49000167682023
+]]></system-out>
+  </testcase>
+  <testcase name="retrieve_AddItemDataForMaterialDocument2_Testing" classname="org.project.Test_Cases" time="5.216">
+    <system-out><![CDATA[Number of columns in the RIGHT part: 86
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Mat. Short Text
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Warranty
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Qty in UnE
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: EUn
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: SLoc
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 1
+SPAN element Text in the RIGHT part: Handling Type
+	
+ 
+Retrieved 'Handling Type' value: 01
+2023-01-31 16:42:22 INFO  MaterialDocPage:607 - HANDLING TYPE value has been SUCCESSFULLY read from ADD ITEM table for comparison: 01.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 2
+SPAN element Text in the RIGHT part: Stock Segment
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 2
+SPAN element Text in the RIGHT part: Batch
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 2
+SPAN element Text in the RIGHT part: Valuation Type
+	
+ 
+Retrieved 'Valuation Type' value: TAX
+2023-01-31 16:42:22 INFO  MaterialDocPage:587 - VALUATION TYPE value has been SUCCESSFULLY read from ADD ITEM table for comparison: TAX.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Movement type
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Direction
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Stock Type
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Plnt
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: JIT Call Number
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Item
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Special Stock
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Sales order
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Sales ord. item
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: WBS Element
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Material Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Material Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Plant Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Plnt Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLoc Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLoc Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Storage Bin TrfrPstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Rec. Stock Seg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Batch Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Restr. Trfr Posting
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Val. Type Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SpecStck Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SlsOrder Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SlsOrd Itm TrfrPg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: WBS Element TrfrPstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Vendor Transfer Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Customer Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Purchase order
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Item
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Del. Date
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Reservation
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Item no.
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Final issue
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Date of Manuf.
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLED/BBD
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: DateofManufact. TrPg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: SLED/BBD Trfr Pstg
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 3
+SPAN element Text in the RIGHT part: Quantity
+	
+ 
+Retrieved 'Quantity' value: 100,000
+2023-01-31 16:42:24 INFO  MaterialDocPage:501 - QUANTITY value has been SUCCESSFULLY read from ADD ITEM table for comparison: 100,000.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 4
+SPAN element Text in the RIGHT part: Base Unit
+	
+ 
+Retrieved 'Base Unit of Measurement' value: L15
+2023-01-31 16:42:24 INFO  MaterialDocPage:522 - BASE UNIT value has been SUCCESSFULLY read from ADD ITEM table for comparison: L15.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Text
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Unloading Point
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Recipient
+	
+ 
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 5
+SPAN element Text in the RIGHT part: Material
+	
+ 
+Retrieved 'Material' value: OGSD_100
+2023-01-31 16:42:24 INFO  MaterialDocPage:479 - MATERIAL value has been SUCCESSFULLY read from ADD ITEM table for comparison: OGSD_100.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 6
+SPAN element Text in the RIGHT part: Plant
+	
+ 
+Retrieved 'Plant' value: GP01
+2023-01-31 16:42:24 INFO  MaterialDocPage:544 - PLANT value has been SUCCESSFULLY read from ADD ITEM table for comparison: GP01.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+Counter of Needed columns in the RIGHT part of ITEM OVERVIEW table: 7
+SPAN element Text in the RIGHT part: Stor. Location
+	
+ 
+Retrieved 'Storage Location' value: G1L1
+2023-01-31 16:42:24 INFO  MaterialDocPage:566 - STORAGE LOCATION value has been SUCCESSFULLY read from ADD ITEM table for comparison: G1L1.
+Column CLASS: urSTHC urBorderBox urST5HCMetricStd urST5L urST5HCColorLvl1 urST3HUnsel urST4LbHdrBg urNoUserSelect
+The value of String 'Material_Gain = 'OGSD_100
+The value of String 'Quantity_Gain = '100,000
+The value of String 'BaseUnitOfMeasure_Gain = 'L15
+The value of String 'Plant_Gain = 'GP01
+The value of String 'StorageLocation_Gain2 = 'G1L1
+The value of String 'ValuationType_Gain = 'TAX
+The value of String 'HandlingType_Gain = '01
+]]></system-out>
+  </testcase>
+  <testcase name="comparing_AddItemDetails_Testing[OGSD_100, 100,000, GP01, G1L1, TAX, 01, L15](1)" classname="org.project.Test_Cases" time="4.025">
+    <system-out><![CDATA[2023-01-31 16:42:26 INFO  MaterialDocPage:879 - Document Number from 'DC' and 'Display Material' pages are identical as EXPECTED: 49000167672023 vs. 49000167672023
+2023-01-31 16:42:26 INFO  MaterialDocPage:882 - Materials for Document Number 49000167672023 are identical as EXPECTED (OGSD_100 vs. OGSD_100).
+2023-01-31 16:42:26 INFO  MaterialDocPage:888 - Quantities for Document Number 49000167672023 are identical as EXPECTED (100,000 vs. 100,000).
+2023-01-31 16:42:26 INFO  MaterialDocPage:894 - Plants for Document Number 49000167672023 are identical as EXPECTED (GP01 vs. GP01).
+2023-01-31 16:42:26 WARN  MaterialDocPage:902 - Storage Locations for Document Number 49000167672023 are NOT identical (G1L1 vs. G1LT).
+2023-01-31 16:42:26 INFO  MaterialDocPage:906 - Valuation Types for Document Number 49000167672023 are identical as EXPECTED (TAX vs. TAX).
+2023-01-31 16:42:26 INFO  MaterialDocPage:912 - Handling Types for Document Number 49000167672023 are identical as EXPECTED (01 vs. 01).
+2023-01-31 16:42:26 INFO  MaterialDocPage:918 - Base Units of Measure for Document Number 49000167672023 are identical as EXPECTED (L15 vs. L15).
+2023-01-31 16:42:29 INFO  MaterialDocPage:879 - Document Number from 'DC' and 'Display Material' pages are identical as EXPECTED: 49000167682023 vs. 49000167682023
+2023-01-31 16:42:29 INFO  MaterialDocPage:882 - Materials for Document Number 49000167682023 are identical as EXPECTED (OGSD_100 vs. OGSD_100).
+2023-01-31 16:42:29 INFO  MaterialDocPage:888 - Quantities for Document Number 49000167682023 are identical as EXPECTED (100,000 vs. 100,000).
+2023-01-31 16:42:29 INFO  MaterialDocPage:894 - Plants for Document Number 49000167682023 are identical as EXPECTED (GP01 vs. GP01).
+2023-01-31 16:42:29 INFO  MaterialDocPage:900 - Storage Locations for Document Number 49000167682023 are identical as EXPECTED (G1L1 vs. G1L1).
+2023-01-31 16:42:29 INFO  MaterialDocPage:906 - Valuation Types for Document Number 49000167682023 are identical as EXPECTED (TAX vs. TAX).
+2023-01-31 16:42:29 INFO  MaterialDocPage:912 - Handling Types for Document Number 49000167682023 are identical as EXPECTED (01 vs. 01).
+2023-01-31 16:42:29 INFO  MaterialDocPage:918 - Base Units of Measure for Document Number 49000167682023 are identical as EXPECTED (L15 vs. L15).
+DocNUM of the 1st document: 9143
+DocNUM of the 2nd document: 9144
+ReSet Reversed DocNUM: 
+]]></system-out>
+  </testcase>
 </testsuite>

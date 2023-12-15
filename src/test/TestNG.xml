@@ -5,6 +5,7 @@
 <suite name="TestNG_Suite1" verbose="1" thread-count="1" parallel="none">
 
     <!-- TARGET SYSTEM/CLIENT PARAMETERS - Please, enter required parameteres here  -->
+    <parameter name="target_System" value="ofq"/> <!-- Allowed values: "OGQ_100", "OFQ_100" -->
     <parameter name="target_System_Client" value="OFQ_100"/> <!-- Allowed values: "OGQ_100", "OFQ_100" -->
 
 
